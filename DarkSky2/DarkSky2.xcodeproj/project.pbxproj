@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6CE6A81C09ABC50088407C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CE6A71C09ABC50088407C /* main.m */; };
+		EF6CE6AB1C09ABC50088407C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CE6AA1C09ABC50088407C /* AppDelegate.m */; };
+		EF6CE6AE1C09ABC50088407C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CE6AD1C09ABC50088407C /* ViewController.m */; };
+		EF6CE6B11C09ABC50088407C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6CE6AF1C09ABC50088407C /* Main.storyboard */; };
+		EF6CE6B31C09ABC50088407C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6CE6B21C09ABC50088407C /* Assets.xcassets */; };
+		EF6CE6B61C09ABC50088407C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6CE6B41C09ABC50088407C /* LaunchScreen.storyboard */; };
+		EF70DC701C0A8A580092D619 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70DC6F1C0A8A580092D619 /* Weather.m */; };
+		EF70DC741C0AB02A0092D619 /* WeatherApi.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70DC731C0AB02A0092D619 /* WeatherApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF6CE6A31C09ABC50088407C /* DarkSky2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSky2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6CE6A71C09ABC50088407C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF6CE6A91C09ABC50088407C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF6CE6AA1C09ABC50088407C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF6CE6AC1C09ABC50088407C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF6CE6AD1C09ABC50088407C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF6CE6B01C09ABC50088407C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF6CE6B21C09ABC50088407C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6CE6B51C09ABC50088407C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF6CE6B71C09ABC50088407C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF70DC6E1C0A8A580092D619 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		EF70DC6F1C0A8A580092D619 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		EF70DC721C0AB02A0092D619 /* WeatherApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherApi.h; sourceTree = "<group>"; };
+		EF70DC731C0AB02A0092D619 /* WeatherApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherApi.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6CE6A01C09ABC50088407C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6CE69A1C09ABC50088407C = {
+			isa = PBXGroup;
+			children = (
+				EF6CE6A51C09ABC50088407C /* DarkSky2 */,
+				EF6CE6A41C09ABC50088407C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6CE6A41C09ABC50088407C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6CE6A31C09ABC50088407C /* DarkSky2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6CE6A51C09ABC50088407C /* DarkSky2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2D4DB1C0B157B004F8D47 /* PLIST */,
+				EF6CE6C11C09B3780088407C /* Model */,
+				EF6CE6C01C09AC950088407C /* Views */,
+				EF6CE6BF1C09AC880088407C /* API */,
+				EF6CE6BE1C09AC7F0088407C /* Storyboards */,
+				EF6CE6BD1C09AC790088407C /* App */,
+				EF6CE6B21C09ABC50088407C /* Assets.xcassets */,
+				EF6CE6A61C09ABC50088407C /* Supporting Files */,
+			);
+			path = DarkSky2;
+			sourceTree = "<group>";
+		};
+		EF6CE6A61C09ABC50088407C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6CE6A71C09ABC50088407C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF6CE6BD1C09AC790088407C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF6CE6A91C09ABC50088407C /* AppDelegate.h */,
+				EF6CE6AA1C09ABC50088407C /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		EF6CE6BE1C09AC7F0088407C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF6CE6AF1C09ABC50088407C /* Main.storyboard */,
+				EF6CE6B41C09ABC50088407C /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF6CE6BF1C09AC880088407C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EF70DC721C0AB02A0092D619 /* WeatherApi.h */,
+				EF70DC731C0AB02A0092D619 /* WeatherApi.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		EF6CE6C01C09AC950088407C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF6CE6AC1C09ABC50088407C /* ViewController.h */,
+				EF6CE6AD1C09ABC50088407C /* ViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EF6CE6C11C09B3780088407C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF70DC6E1C0A8A580092D619 /* Weather.h */,
+				EF70DC6F1C0A8A580092D619 /* Weather.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EFD2D4DB1C0B157B004F8D47 /* PLIST */ = {
+			isa = PBXGroup;
+			children = (
+				EF6CE6B71C09ABC50088407C /* Info.plist */,
+			);
+			name = PLIST;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6CE6A21C09ABC50088407C /* DarkSky2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6CE6BA1C09ABC50088407C /* Build configuration list for PBXNativeTarget "DarkSky2" */;
+			buildPhases = (
+				EF6CE69F1C09ABC50088407C /* Sources */,
+				EF6CE6A01C09ABC50088407C /* Frameworks */,
+				EF6CE6A11C09ABC50088407C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSky2;
+			productName = DarkSky2;
+			productReference = EF6CE6A31C09ABC50088407C /* DarkSky2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6CE69B1C09ABC50088407C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Angus Johnston";
+				TargetAttributes = {
+					EF6CE6A21C09ABC50088407C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EF6CE69E1C09ABC50088407C /* Build configuration list for PBXProject "DarkSky2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6CE69A1C09ABC50088407C;
+			productRefGroup = EF6CE6A41C09ABC50088407C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6CE6A21C09ABC50088407C /* DarkSky2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6CE6A11C09ABC50088407C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6CE6B61C09ABC50088407C /* LaunchScreen.storyboard in Resources */,
+				EF6CE6B31C09ABC50088407C /* Assets.xcassets in Resources */,
+				EF6CE6B11C09ABC50088407C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6CE69F1C09ABC50088407C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF70DC701C0A8A580092D619 /* Weather.m in Sources */,
+				EF6CE6AE1C09ABC50088407C /* ViewController.m in Sources */,
+				EF6CE6AB1C09ABC50088407C /* AppDelegate.m in Sources */,
+				EF70DC741C0AB02A0092D619 /* WeatherApi.m in Sources */,
+				EF6CE6A81C09ABC50088407C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF6CE6AF1C09ABC50088407C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6CE6B01C09ABC50088407C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF6CE6B41C09ABC50088407C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6CE6B51C09ABC50088407C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6CE6B81C09ABC50088407C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF6CE6B91C09ABC50088407C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6CE6BB1C09ABC50088407C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DarkSky2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamsco.DarkSky2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF6CE6BC1C09ABC50088407C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DarkSky2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamsco.DarkSky2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6CE69E1C09ABC50088407C /* Build configuration list for PBXProject "DarkSky2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6CE6B81C09ABC50088407C /* Debug */,
+				EF6CE6B91C09ABC50088407C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6CE6BA1C09ABC50088407C /* Build configuration list for PBXNativeTarget "DarkSky2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6CE6BB1C09ABC50088407C /* Debug */,
+				EF6CE6BC1C09ABC50088407C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6CE69B1C09ABC50088407C /* Project object */;
+}
