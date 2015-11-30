@@ -88,7 +88,7 @@
     } else if ([self.forecast  isEqual: @"cloudy"]){
         image = [UIImage imageNamed:@"cloudy"];
         
-    } else if ([self.forecast  isEqual: @"partly-cloudy-unknight"]){
+    } else if ([self.forecast  isEqual: @"partly-cloudy-night"]){
         image = [UIImage imageNamed:@"partly-cloudy-night"];
     } else {
         image = [UIImage imageNamed:@"unknown-weather"];
